@@ -7,17 +7,17 @@
 Los datos empleados en la obtención de estádisticas han sido extraídos de los siguientes archivos CSV: [IGN](https://www.kaggle.com/egrinstein/20-years-of-games/data) y [Metacrític](https://www.kaggle.com/leonardf/releases-and-sales/data) 
 
 El fichero de **IGN** contiene los siguientes datos de 18.625 videojuegos:
-  -ID.
-  -Nota en palabra.
-  -Título.
-  -URL en IGN.
-  -Plataforma.
-  -Nota según IGN.
-  -Género.
-  -Si se recomienda el juego o no.
-  -Año de publicación.
-  -Mes de publicación.
-  -Día de publicación.
+  - ID.
+  - Nota en palabra.
+  - Título.
+  - URL en IGN.
+  - Plataforma.
+  - Nota según IGN.
+  - Género.
+  - Si se recomienda el juego o no.
+  - Año de publicación.
+  - Mes de publicación.
+  - Día de publicación.
   
 El fichero de **Metacrític** contiene los siguientes datos de 16.719 videojuegos:
   -Nombre.
