@@ -1,4 +1,4 @@
-#Calculate Videogames Grade
+# Calculate Videogames Grade
 
 **Calculate Videogames Grade** es un predictor del éxito de un videojuego. Su misión es predecir la nota que va a obtener un videojuego en función de determinadas características proporcionadas por el usuario.
 
