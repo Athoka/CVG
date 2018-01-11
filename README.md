@@ -2,7 +2,7 @@
 
 **Calculate Videogames Grade** es un predictor del éxito de un videojuego. Su misión es predecir la nota que va a obtener un videojuego en función de determinadas características proporcionadas por el usuario.
 
-##Datos
+## Datos
 
 Los datos empleados en la obtención de estádisticas han sido extraídos de los siguientes archivos CSV: [IGN](https://www.kaggle.com/egrinstein/20-years-of-games/data) y [Metacrític](https://www.kaggle.com/leonardf/releases-and-sales/data) 
 
@@ -36,25 +36,25 @@ El fichero de **Metacrític** contiene los siguientes datos de 16.719 videojuego
   -Estudio de desarrollo.
   -Rating.
   
-##Diseño
+## Diseño
 Diseño del programa, herramientas que se han usado y por qué.
 
-##Uso de la aplicación
+## Uso de la aplicación
 Cómo se usa
 
-##Rendimiento
+## Rendimiento
 Velocidad, eficiencia... Cómo se han conseguido.
 
-##Qué hemos aprendido
+## Qué hemos aprendido
 Cosas interesantes que hemos aprendido del proyecto.
 
-##Qué podemos mejorar
+## Qué podemos mejorar
 Proponer mejoras.
 
-##Conclusiones
+## Conclusiones
 Qué es lo que más nos ha gustado, lo que más nos ha costado, lo más frustrante y qué haríamos diferente.
 
-##Nosotros
+## Nosotros
 Proyecto realizado por:
  -Irene González Velasco.
  -Elena Kaloyanova Popova.
