@@ -1,37 +1,61 @@
-## Welcome to GitHub Pages
+#Calculate Videogames Grade
 
-You can use the [editor on GitHub](https://github.com/Athoka/CalculateVideogamesGrade/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+**Calculate Videogames Grade** es un predictor del éxito de un videojuego. Su misión es predecir la nota que va a obtener un videojuego en función de determinadas características proporcionadas por el usuario.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+##Datos
 
-### Markdown
+Los datos empleados en la obtención de estádisticas han sido extraídos de los siguientes archivos CSV: [IGN](https://www.kaggle.com/egrinstein/20-years-of-games/data) y [Metacrític](https://www.kaggle.com/leonardf/releases-and-sales/data) 
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+El fichero de **IGN** contiene los siguientes datos de 18.625 videojuegos:
+  -ID.
+  -Nota en palabra.
+  -Título.
+  -URL en IGN.
+  -Plataforma.
+  -Nota según IGN.
+  -Género.
+  -Si se recomienda el juego o no.
+  -Año de publicación.
+  -Mes de publicación.
+  -Día de publicación.
+  
+El fichero de **Metacrític** contiene los siguientes datos de 16.719 videojuegos:
+  -Nombre.
+  -Plataforma.
+  -Año de lanzamiento.
+  -Género.
+  -Compañía.
+  -Ventas en América.
+  -Ventas en Europa.
+  -Ventas en Japón.
+  -Ventas en otros sitios.
+  -Ventas totales.
+  -Nota de los críticos.
+  -Nota de los usuarios.
+  -Número de usuarios que ha puntuado.
+  -Estudio de desarrollo.
+  -Rating.
+  
+##Diseño
+Diseño del programa, herramientas que se han usado y por qué.
 
-```markdown
-Syntax highlighted code block
+##Uso de la aplicación
+Cómo se usa
 
-# Header 1
-## Header 2
-### Header 3
+##Rendimiento
+Velocidad, eficiencia... Cómo se han conseguido.
 
-- Bulleted
-- List
+##Qué hemos aprendido
+Cosas interesantes que hemos aprendido del proyecto.
 
-1. Numbered
-2. List
+##Qué podemos mejorar
+Proponer mejoras.
 
-**Bold** and _Italic_ and `Code` text
+##Conclusiones
+Qué es lo que más nos ha gustado, lo que más nos ha costado, lo más frustrante y qué haríamos diferente.
 
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/Athoka/CalculateVideogamesGrade/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+##Nosotros
+Proyecto realizado por:
+ -Irene González Velasco.
+ -Elena Kaloyanova Popova.
+ -Víctor del Pino Castilla.
