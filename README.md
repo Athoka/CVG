@@ -20,21 +20,21 @@ El fichero de **IGN** contiene los siguientes datos de 18.625 videojuegos:
   - Día de publicación.
   
 El fichero de **Metacrític** contiene los siguientes datos de 16.719 videojuegos:
-  -Nombre.
-  -Plataforma.
-  -Año de lanzamiento.
-  -Género.
-  -Compañía.
-  -Ventas en América.
-  -Ventas en Europa.
-  -Ventas en Japón.
-  -Ventas en otros sitios.
-  -Ventas totales.
-  -Nota de los críticos.
-  -Nota de los usuarios.
-  -Número de usuarios que ha puntuado.
-  -Estudio de desarrollo.
-  -Rating.
+  - Nombre.
+  - Plataforma.
+  - Año de lanzamiento.
+  - Género.
+  - Compañía.
+  - Ventas en América.
+  - Ventas en Europa.
+  - Ventas en Japón.
+  - Ventas en otros sitios.
+  - Ventas totales.
+  - Nota de los críticos.
+  - Nota de los usuarios.
+  - Número de usuarios que ha puntuado.
+  - Estudio de desarrollo.
+  - Rating.
   
 ## Diseño
 Diseño del programa, herramientas que se han usado y por qué.
@@ -56,6 +56,6 @@ Qué es lo que más nos ha gustado, lo que más nos ha costado, lo más frustran
 
 ## Nosotros
 Proyecto realizado por:
- -Irene González Velasco.
- -Elena Kaloyanova Popova.
- -Víctor del Pino Castilla.
+ - Irene González Velasco.
+ - Elena Kaloyanova Popova.
+ - Víctor del Pino Castilla.
