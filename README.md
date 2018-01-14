@@ -18,7 +18,8 @@ El fichero de **IGN** contiene los siguientes datos de 18.625 videojuegos:
   - Año de publicación.
   - Mes de publicación.
   - Día de publicación.
-  
+Los datos que nos importan de este fichero son: la plataforma, la nota, el género y el año y mes de publicación. Nos hemos quedado con sólo estas columnas en un nuevo CSV.
+
 El fichero de **Metacrític** contiene los siguientes datos de 16.719 videojuegos:
   - Nombre.
   - Plataforma.
@@ -35,9 +36,16 @@ El fichero de **Metacrític** contiene los siguientes datos de 16.719 videojuego
   - Número de usuarios que ha puntuado.
   - Estudio de desarrollo.
   - Rating.
-  
+Al igual que con el fichero de IGN, hemos creado uno nuevo para guardar los datos que nos interesan: plataforma, año de lanzamiento, género, compañía, ventas totales y nota tanto de críticos como de usuarios.
+
+Los dos ficheros fueron parseados para poder ser tratados de forma más sencilla en Spark, no hay cambios sustanciales en los datos.
+
 ## Diseño
-Diseño del programa, herramientas que se han usado y por qué.
+Todo el proyecto está desarrollado en Python, ya que nos parece un lenguaje sencillo a la vez que potente y que permite una buena integración de Spark. 
+
+La parte más importante del código es el fichero **patrons.py** que contiene las funcionalidades Spark: leer CSVs y convertirlos en RDDs en los que buscará los juegos que encajen en las categorías especificadas, agruparlos y calcular su media.
+Proyecto realizado por:
+ - Plataforma: 
 
 ## Uso de la aplicación
 Cómo se usa
