@@ -86,11 +86,15 @@ Dentro de las acciones para ampliar el sistema, consideramos las siguientes:
   
 2. **Ampliación de alcance**  
   
-    2.1. ***Fuentes de datos***  
+    2.1. ***Mostrar estadísticas***  
+    Añadir una visualización para las estadísticas de los datos procesados.  
+    
+    2.2. ***Fuentes de datos***  
     Para aumentar la precisión de la aplicación se requiere un mayor número de datos, tanto en forma de nuevas fuentes de calificación como en forma de nuevas entradas a los conjuntos de datos ya disponibles.  
     
-    2.2. ***Obtención de datos***  
+    2.3. ***Obtención de datos***  
     Para ampliar y actualizar los datos disponibles, el desarrollo de una araña que indexe la información de forma automática, las páginas web de los medios especializados que sean objetivo de nuestra aplicación, consiguiendo una información más actualizada y amplia con un menor esfuerzo de desarrollo.  
+    
     
 3. **Algoritmia**  
 Para aumentar la precisión del análisis se estudiarían las distrubuciones de datos de acuerdo a los modelos estadísticos y se aplicarían los modelos de distribución obtener unos resultados mas afinados.  
