@@ -5,7 +5,7 @@ Su misión es predecir la nota que va a obtener un videojuego en función de det
 
 ![Flujo Generico](/img/FlujoGenerico.PNG)
 
-La aplicacion se alimenta con datos históricos de ventas y calificación de dos medios especializados, estos datos son procesados para adaptarlos a un formato común. Mediante un análisis estadístico, cruzando con el valor de las variables proporcionadas por el usuario, se genera una calificación que se devuelve al usuario.  
+La aplicación se alimenta con datos históricos de ventas y calificaciones de dos medios especializados. Estos datos son procesados para adaptarlos a un formato común, y mediante un análisis estadístico, cruzando con el valor de las variables proporcionadas por el usuario, se genera una calificación que se devuelve al usuario.  
 
 ## Datos
 
@@ -46,8 +46,7 @@ El fichero de **Metacrític** contiene los siguientes datos de 16.719 videojuego
 Al igual que con el fichero de IGN, hemos creado uno nuevo para guardar los datos que nos interesan: plataforma, año de lanzamiento, género, compañía, ventas totales y nota tanto de críticos como de usuarios.
 
 Los dos ficheros fueron parseados para poder ser tratados de forma más sencilla en Spark, no hay cambios sustanciales en los datos.
-
-
+   
 ## Diseño
 Todo el proyecto está desarrollado en Python, ya que nos parece un lenguaje sencillo a la vez que potente y que permite una buena integración de Spark. 
 
@@ -59,17 +58,49 @@ Cómo se usa
 ## Rendimiento
 Velocidad, eficiencia... Cómo se han conseguido.
 
-## Qué hemos aprendido
-Cosas interesantes que hemos aprendido del proyecto.
+## Qué hemos aprendido  
 
-## Qué podemos mejorar
-Proponer mejoras.
+Durante la realización de este proyecto hemos adquirido multitud de conocimientos nuevos, entre ellos, los más destacados son:  
+
+  - Como nuestra aplicación está hecha en Python, desplegado sobre AWS, hemos aprendido a 
+  desarrollar aplicaciones en Python y a gestionar un servidor en AWS, así como Spark y
+  MapReduce.  
+  - Al utilizar Github como nuestro sistema de control de versiones hemos aprendido a utilizar
+  Git y el cliente de escritorio de Github.  
+  - Hemos aprendido a utilizar Github Pages para el desarrollo de esta página web.  
+  - Hemos trabajado con data science y estadística para tratar los datos y obtener toda la 
+  información.  
+  
+## Hoja de ruta
+
+Dentro de las acciones para ampliar el sistema, consideramos las siguientes:  
+  
+1. **Experiencia de usuario**  
+  
+    1.1. ***Interfaz de usuario***  
+    Para mejorar la usabilidad de la aplicación se considera realizar una página web mediante la cual el usuario pueda relacionarse con el motor predictivo de forma mas amigable, además de mostrar información sobre los datos usados para el análisis.  
+    
+    1.2. ***API***  
+    Desarrollar una API que permita acceder al motor de predicción de notas de videojuegos permite que la funcionalidad desarrollada por nuestro proyecto sea utilizada en multitud de aplicaciones y desarrollos de terceros.  
+    Adicionalmente realizar una API que tenga acceso al motor de predicción, permitiria utilizar nuestros algoritmos con una gran variedad de fuentes de datos distintas. Lo que peremitiria una expansión del alcance inicial de nuestro proyecto, además de una significativa cantidad de datos de pruebas para mejoras los algoritmos.    
+  
+2. **Ampliación de alcance**  
+  
+    2.1. ***Fuentes de datos***  
+    Para aumentar la precisión de la aplicación se requiere un mayor número de datos, tanto en forma de nuevas fuentes de calificación como en forma de nuevas entradas a los conjuntos de datos ya disponibles.  
+    
+    2.2. ***Obtención de datos***  
+    Para ampliar y actualizar los datos disponibles, el desarrollo de una araña que indexe la información de forma automática, las páginas web de los medios especializados que sean objetivo de nuestra aplicación, consiguiendo una información más actualizada y amplia con un menor esfuerzo de desarrollo.  
+    
+3. **Algoritmia**  
+Para aumentar la precisión del análisis se estudiarían las distrubuciones de datos de acuerdo a los modelos estadísticos y se aplicarían los modelos de distribución obtener unos resultados mas afinados.  
+
 
 ## Conclusiones
 Qué es lo que más nos ha gustado, lo que más nos ha costado, lo más frustrante y qué haríamos diferente.
 
 ## Nosotros
 Proyecto realizado por:
- - Irene González Velasco.
- - Elena Kaloyanova Popova.
- - Víctor del Pino Castilla.
+ - [Irene González Velasco](https://github.com/Athoka).  
+ - [Elena Kaloyanova Popova](https://github.com/dokrai).  
+ - [Víctor del Pino Castilla](https://github.com/victordpc).  
