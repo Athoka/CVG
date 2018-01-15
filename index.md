@@ -97,7 +97,14 @@ Para aumentar la precisión del análisis se estudiarían las distrubuciones de 
 
 
 ## Conclusiones
-Qué es lo que más nos ha gustado, lo que más nos ha costado, lo más frustrante y qué haríamos diferente.
+  
+Lo más interesante del proyecto ha sido realizar una pequeña aplicacion funcional desde el principio sin tener referencias en las que apoyarse. Hemos tenido que investigar cómo desarrollar el código necesario para satisfacer la funcionalidad de nuestra aplicación en un lenguaje del que ninguno tenía conocimiento previo. Además hemos podido aplicar conocimientos adquiridos en otras asignaturas para realizar la predicción de nota.  
+  
+Las principales frustraciones han sido enfrentarnos con un lenguaje desconocido a una funcionalidad compleja, lo que nos ha costado más tiempo del estimado, para otras plataformas. Este retraso nos ha supuesto una disminución en el tiempo disponible para el desarrollo de los modelos estadísticos que teníamos planeados para el cálculo de la nota.  
+  
+Si volviésemos a empezar el proyecto desde el principio nos enfrentaríamos a él con otras expectativas y una estimación de tiempos más realista, ya que ha sido lo que más nos ha condicionado a la hora de realizarlo.  
+  
+Con todo esto, podemos decir que ha sido una experiencia enriquecedora y que nos ha ayudado a tener un mejor conocimiento sobre el funcionamiento de las aplicaciones con Big Data y Data Science y hemos sido capaces de crear una aplicación funcional por nuestros propios medios.
 
 ## Nosotros
 Proyecto realizado por:
