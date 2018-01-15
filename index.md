@@ -177,10 +177,26 @@ Actualmente la aplicación esta diseñada para ser desplegada en un único nodo 
 Este despliegue nos permite una escalabilidad horizontal utilizando más nodos con hadoop de forma que sea posible servir las peticiones entrantes y adaptarse a la demanda  
  
 ## Uso de la aplicación
-Cómo se usa
+La interacción del usuario con el programa se produce gracias al un script en Bash que permite integrar todos los ficheros comentados en el apartado de diseño. Lo primero que ocurre es que se le muestra al usuario un menú mostrándole las posibles opciones que le ofrece nuestra aplicación. 
+
+![Avgs](/img/avgs.jpg)
+
+La primera opción es la predicción de notas. Tras seleccionar esta opción se le pedirá al usuario que introduzca por consola los datos sobre su videojuego: plataforma, género, desarrolladora y mes de lanzamiento. Estos datos se pasarán al programa principal para hayar las medias correspondientes a cada categoría y con ellas la media general. El resultado que se muestra al usuario es el siguiente:
+
+![Avgs_Resultados](/img/res_avgs.jpg)
+
+La segunda opción es casi idéntica solo que, en vez de predecir la nota, predice las ventas que se van a obtener. La petición de datos al usuario y el procesamiento de estos es igual que en el caso anterior pero cambiando la columna utilizada para calcular la media. El resultado que se muestra al usuario es muy similar al anterior:
+
+![Ventas_Resultados](/img/res_sales.jpg)
+
+La tercera es un mecanismo de consulta que permite al usuario buscar la media tanto de notas como de ventas de cualquiera de las categorías disponibles. Se le pedirá al usuario primero que indique si quiere conocer la media de las notas o de las ventas y segundo qué categoría quiere consultar. Por último se le pedirá que inserte un valor y, si ese valor se encuentra entre nuestros datos, se le mostrará la media pedida. Lo que se le muestra al usuario es lo siguiente:
+
+![Menu_Stats](/img/menu_stats.jpg)
 
 ## Rendimiento
-Velocidad, eficiencia... Cómo se han conseguido.
+El programa recorre los CSVs enteros una vez para crear los RDDs y otra para cada categoría para filtrar los datos que nos interesan. Tras esto, las medias se realizan sobre RDDs mucho más pequeños lo que acelera un poco el proceso.
+
+Por ahora los datos, a pesar de ser numerosos, no son lo suficientemente grandes para que el programa se relentice debido al recorrido de los RDDs para cada categoría. Actualmente se tardan 13,85 segundos en ejecutar una predicción de nota y 9,97 para una predicción de ventas. La predicción de ventas es ligeramente más rápida ya que sólo utiliza el CSV de Metacritic. La situación podría emporar cuando el número de datos aumente mucho, ya sea por los años o por incluir nuevos medios de los que obtener datos (otras revistas, plataformas...). Podría solventarse utilizando más nodos que paralelicen el filtrado de información.
 
 ## Qué hemos aprendido  
 
