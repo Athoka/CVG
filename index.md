@@ -3,7 +3,7 @@
 **Calculate Videogames Grade** es un predictor del éxito de un videojuego.  
 Su misión es predecir la nota que va a obtener un videojuego en función de determinadas características proporcionadas por el usuario.
 
-![Flujo Generico](/img/inicio.PNG)
+![Inicio](/img/inicio.PNG)
 
 La aplicación se alimenta con datos históricos de ventas y calificaciones de dos medios especializados. Estos datos son procesados para adaptarlos a un formato común, y mediante un análisis estadístico, cruzando con el valor de las variables proporcionadas por el usuario, se genera una calificación que se devuelve al usuario.  
 
