@@ -56,6 +56,7 @@ La parte más importante del código es el fichero **patrons.py** que contiene l
   
 El flujo de uso de la aplicación empieza con un menú **menu.py** en el que se le pide al usuario que introduzca los datos sobre los que se van a realizar los cálculos.  
   
+***[menu.py](/Proyect/menu.py)***
 ```python
 def calculate_grade():
 	platforms = ["PS4","XOne","WiiU","PSV", "3DS", "PC", "Android"]
@@ -81,7 +82,7 @@ def calculate_grade():
   
 Estos datos se le pasan a **patrons.py** que utilizando los datos históricos disponibles realiza el análisis estadístico de la entrada. El resultado final se guarda en un fichero ***grades.txt***  
   
-***main - patrons.py***
+***[main - patrons.py](/Proyect/patrons.py)***
 ```python
 def main():
 	[...]
@@ -119,7 +120,7 @@ def main():
 main()
 ```
   
-***average example - patrons.py***
+***[average example - patrons.py](/Proyect/patrons.py)***
 ```python
 def developer_avg(metacriticData,sc,developer):
 	#Do the statisticts related to the given developer
@@ -143,7 +144,7 @@ def developer_avg(metacriticData,sc,developer):
 ```
 Por último el fichero **grades.py** muestra la calificación final de los datos proporcionados
   
-***grades.py***
+***[grades.py](/Proyect/grades.py)***
 ```python
 categories = ["Platform: ", "Genre: ", "Developer: ", "Month of release: ", "Expected grade: "]
 
